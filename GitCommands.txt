@@ -1,0 +1,75 @@
+    1  ls
+    2  pwd
+    3  cd
+    4  pwd
+    5  cd Jupyter Notebook Codes
+    6  cd ..
+    7  cd bgour
+    8  pwd
+    9  cd Jupyte_Notebook_Codes
+   10  cd 'Jupyter Notebook Codes'
+   11  pwd
+   12  mkdir test_app
+   13  pwd
+   14  cd test_app
+   15  pwd
+   16  mkdir f1 f2 f3
+   17  ls
+   18  rmdir f2 f3
+   19  ls
+   20  rmdir f1
+   21  rm -r f1
+   22  ls
+   23  clear
+   24  pwd
+   25  touch f1.txt
+   26  cat f1.txt
+   27  nano f1.txt
+   28  cat f1.txt
+   29  clear
+   30  pwd
+   31  cd 'Jupyter Notebook Codes'
+   32  pwd
+   33  cd test_app
+   34  ls
+   35  cat f1.txt
+   36  clear
+   37  cd
+   38  ls
+   39  pwd
+   40  cd 'Jupyter Notebook Codes'
+   41  ls
+   42  clear
+   43  pwd
+   44  cd test_app
+   45  touch f2.py f3.sql
+   46  ls
+   47  touch f4.py re.txt
+   48  ls
+   49  pwd
+   50  git init
+   51  ls -a
+   52  git config --list
+   53  git config --global user.name 'bgourab'
+   54  git config --global user.email 'bgourab.official@gmail.com'
+   55  git config --list
+   56  git remote -v
+   57  git remote add origin https://github.com/bgourab/test_app.git
+   58  git remote -v
+   59  git status
+   60  git add f1.txt
+   61  git status
+   62  git rm --cached f1.txt
+   63  git status
+   64  git add .
+   65  git status
+   66  git commit -m 'First Commit'
+   67  git status
+   68  git branch -m master main
+   69  git status
+   70  git push -f origin main
+   71  git branch --set-upstream-to=origin/main
+   72  git pull
+   73  git pull
+   74  git log
+   75  history > GitCommands.txt
